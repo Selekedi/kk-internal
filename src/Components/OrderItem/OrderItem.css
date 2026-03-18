@@ -1,0 +1,49 @@
+.order-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 2px #555;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 325px;
+    max-width: 325px;
+    width: fit-content;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+}
+
+.order-item > .name {
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    
+    
+}
+
+.order-item > .total-qty {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.order-item > .total-qty .total {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.order-item > .close {
+    background-color: #f55;
+    color: white;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+

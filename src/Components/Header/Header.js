@@ -15,6 +15,7 @@ const Header = forwardRef((props, ref) => {
 
   const navItems = [
     { label: "home", to: "/" },
+    { label: "orders", to :"/orders"},
   ];
   
   useEffect(() => {

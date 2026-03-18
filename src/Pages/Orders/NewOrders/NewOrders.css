@@ -1,0 +1,235 @@
+.new-order-page .order-item {
+	display: flex;
+	padding: 8px;
+	box-shadow: 0 0 2px hsl(0, 0%, 33%);
+	border-radius: 8px;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+	margin: 8px 0;
+}
+
+.new-order-page .order-item  > strong{
+	font-size: 32px;
+	padding: 8px;
+}
+
+.new-order-page .order-item .flavor-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.new-order-page .order-item .flavor-container .flavor-name {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.new-order-page .order-item .qty-price-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.new-order-page .order-item .item-remove {
+	background-color: #fff;
+	border: 0;
+}
+
+.new-order-page .order-item .qty-price-container .total-qty {
+	font-weight: 500;
+	font-size: 20px;	
+}
+
+.order-total-container .figure {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.order-total-container {
+	padding: 16px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.new-order-page .form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.new-order-page .form-group label {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.new-order-page .form-group input {
+	width: 100%;
+	padding: 12px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+.new-order-page .delivery {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+}
+
+.new-order-page .delivery .radio{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.new-order-page .radio .dot {
+	width: 24px;
+	height: 24px;
+	border: 2px solid #ccc;
+	margin-right: 12px;
+	display: flex;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+.new-order-page .radio input[type="radio"]:checked + .dot {
+	background-color: #4CAF50;
+	background: #4CAF50;
+}
+
+.new-order-page .radio input[type="radio"]:checked + .dot::after {
+	content: "";
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.menu-overlay {
+	position:fixed;
+	bottom:0;
+	left:0;
+	height:50vh;
+	width:100vw;
+	z-index:10;
+	padding:8px;
+	box-shadow:0 0 2px #555;
+	transform: translateY(100%);
+	transition: transform 0.3s ease-in-out;
+	background-color: #eee;
+}
+
+.menu-overlay.show {
+	transform: translateY(0);
+}
+
+.menu-overlay > .wrapper {
+	width:100%;
+	height:100%;
+	overFlow-x:hidden;
+	
+}
+
+.menu-overlay > .wrapper > .menu-header {
+	display: flex;
+	justify-content:space-between;
+	padding-bottom: 8px;
+	border-bottom: 1px solid;
+}
+
+.menu-overlay > .wrapper > .menu-header > button {
+	border:0.5px solid #888;
+	border-radius:8px;
+	padding:8px;
+	font-size:24px;
+	background-color: #fff;
+}
+
+.menu-overlay > .wrapper > .menu-header .back {
+	transform: translateX(-100%);
+	opacity: 0;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out ;
+}
+
+.menu-overlay > .wrapper > .menu-header .back.show {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.menu-overlay > .wrapper > div {
+	width:100%
+}
+
+.menu-overlay > .wrapper > .grid-header {
+	padding: 8px;
+	text-align: center;
+}
+
+.menu-overlay > .wrapper > .grid {
+	padding-top: 16px;
+	display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.menu-overlay > .wrapper > .grid button {
+	color: #211;
+	background-color: #fff;
+	box-shadow: 0 0 2px #555;
+}
+
+
+
+.menu-overlay > .wrapper > .grid .kota-card span{
+	font-size:24px;
+}
+
+.menu-overlay > .wrapper > .grid .sides {
+
+}
+
+.menu-overlay > .wrapper > .sides strong{
+	display: block;
+	text-align: center;
+	padding: 32px 0;
+	font-size: 32px;
+}
+
+.menu-overlay > .wrapper > .sides .counter-container {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.menu-overlay > .wrapper > .sides .counter-container .total-qty span {
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.menu-overlay > .wrapper > .sides > .total-price {
+	margin-top: 8px;
+	text-align: right;
+}
+
+.menu-overlay > .wrapper > .sides > .total-price span {
+	font-size: 20px;
+	font-size: 600;
+}
+
+
+

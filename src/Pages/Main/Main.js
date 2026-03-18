@@ -10,6 +10,7 @@ import SplashScreen from "../../Components/Loaders/SplashScreen";
 import { onAuthStateChanged } from "firebase/auth";
 import RedirectHandler from "../../utils/RedirectHandler";
 import NotFound from "../NotFound/NotFound";
+import NewOrder from "../Orders/NewOrders/NewOrders";
 
 
 export default function Main(){
@@ -58,6 +59,7 @@ export default function Main(){
                     <Route path="/login" element={<LogIn/>}/>
                     <Route element={<ProtectedRoute user={user}/>}>
                         <Route path="/" element={<Home/>}/>
+                        <Route path="/orders" element={<NewOrder/>}/>
                         <Route path="*" element={<NotFound />} />
                     </Route> 
                 </Routes>

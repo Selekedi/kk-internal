@@ -1,0 +1,45 @@
+.menu-item-card {
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    border-color: #d1d5db;
+}
+
+.menu-item-card {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 3px #aaa;
+    cursor: pointer;
+}
+
+.menu-item-card .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    outline: none;
+
+}
+
+.menu-item-card .wrapper strong{
+    font-size: 24px;
+    padding: 8px 0;
+}
+
+.menu-item-card .wrapper .kota-name {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.menu-item-card .wrapper .kota-price { 
+	font-size: 30px;
+}
