@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kk-internal/static/css/main.da3c89f6.css",
-    "main.js": "/kk-internal/static/js/main.96227125.js",
-    "static/js/453.655ff414.chunk.js": "/kk-internal/static/js/453.655ff414.chunk.js",
+    "main.css": "/kk-internal/static/css/main.64a0e85b.css",
+    "main.js": "/kk-internal/static/js/main.de38ef60.js",
+    "static/js/453.25fdc04e.chunk.js": "/kk-internal/static/js/453.25fdc04e.chunk.js",
     "index.html": "/kk-internal/index.html",
     "service-worker.js": "/kk-internal/service-worker.js",
-    "main.da3c89f6.css.map": "/kk-internal/static/css/main.da3c89f6.css.map",
-    "main.96227125.js.map": "/kk-internal/static/js/main.96227125.js.map",
-    "453.655ff414.chunk.js.map": "/kk-internal/static/js/453.655ff414.chunk.js.map"
+    "main.64a0e85b.css.map": "/kk-internal/static/css/main.64a0e85b.css.map",
+    "main.de38ef60.js.map": "/kk-internal/static/js/main.de38ef60.js.map",
+    "453.25fdc04e.chunk.js.map": "/kk-internal/static/js/453.25fdc04e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da3c89f6.css",
-    "static/js/main.96227125.js"
+    "static/css/main.64a0e85b.css",
+    "static/js/main.de38ef60.js"
   ]
 }
